@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+}
+
+header .logo .bx-menu {
+  font-size: 34px;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+header .logo .bx-menu:hover {
+  background-color: beige;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+header .logo img {
+  width: 100px;
+}
+header .search {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  align-items: center;
+  width: 50%;
+}
+header .search .search_box {
+  padding: 0px 5px;
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-top-right-radius: 17px;
+  border-bottom-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+  border-top-left-radius: 17px;
+  width: 100%;
+  padding: 7px 5px;
+  justify-content: space-between;
+}
+header .search .search_box input {
+  border: none;
+  outline: none;
+  width: 80%;
+}
+.search .mice {
+  font-size: 24px;
+  background-color: beige;
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+header .profile {
+  align-items: center;
+  justify-content: center;
+}
+header .profile button {
+  font-size: 20px;
+}
+header .profile .bxs-bell {
+  font-size: 25px;
+}
+header .profile .bxs-user-circle {
+  font-size: 25px;
+}
+header .profile span {
+  font-size: 22px;
+  justify-content: space-between;
+  padding: 5px;
+}
+main {
+  height: 80%;
+  padding-left: 10px;
+}
+.side-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 10px;
+  padding-right: 100px;
+}
+.side-nav img {
+  height: 50px;
+  width: 50px;
+}
+.side-nav .span1 {
+  padding-left: 10px;
+  font-size: 15px;
+}
+.side-nav .span2 {
+  padding-left: 10px;
+  font-size: 15px;
+}
+.side-nav .span3 {
+  padding-left: 2px;
+  font-size: 15px;
+}
+.side-nav .span4 {
+  padding-left: 8px;
+  font-size: 15px;
+}
+.side-nav .bxs-user-circle {
+  font-size: 30px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.up-nav {
+  align-items: center;
+
+  padding-left: 150px;
+  display: flex;
+  gap: 30px;
+}
+.up-nav button {
+  padding-inline: 10px;
+}
+.center {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 20px;
+  padding: 5px;
+  height: 70%;
+  width: 80%;
+  padding-left: 100px;
+  padding-top: 10px;
+}
+.center iframe {
+  height: 100%;
+  width: 70%;
+  padding: 30px 30px;
+}
+.main-body {
+  display: flex;
+}
